@@ -18,7 +18,7 @@ long_description = open('README.rst').read()
 
 setup(
     name='django-ajaxutils',
-    version="0.2",
+    version="0.3",
     description='Ajax requests for Ponies',
     url='http://github.com/ahref/django-ajaxutils',
     packages=['ajaxutils'],
