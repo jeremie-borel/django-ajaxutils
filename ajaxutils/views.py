@@ -14,4 +14,4 @@ class AjaxMixin(object):
     WARNING: this will change! It's just a prototype.
     """
 
-AjaxMixin.dispatch = ajax()(View.dispatch.im_func)
+AjaxMixin.dispatch = ajax()(View.dispatch.__func__)
