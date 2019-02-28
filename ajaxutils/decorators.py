@@ -43,7 +43,7 @@ class ajax(object):
         def wrapper(request, *args, **kwargs):
             """ wrapper function """
             if self.login_required:
-                if not request.user.is_authenticated():
+                if not request.user.is_authenticated:
                     return JsonResponse(
                         {
                             'status': 'error',
