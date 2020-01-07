@@ -2,6 +2,8 @@
        :alt: AJAX requests for Ponies™
        :align: right
 
+7 jan 2020: Reository archived.
+
 How many times you found yourself writing some views in Django to handle an AJAX request? And how many times you just copy-pasted a view written for synchronous requests and edited them to return a JSON object? And so, how many times you forgot that that ``@login_required`` will actually redirect the request to the login page in case of anonymous users? If this happened to you as many times as it happened to us, you may be start considering using django-ajaxutils.
 
 Django-ajaxutils allows you to define a view as an AJAX view that will return a JSON object and that will handle correctly errors such as user not authenticated and invalid requests. Everything through a simple decorator!
